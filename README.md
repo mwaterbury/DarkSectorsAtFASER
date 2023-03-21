@@ -13,3 +13,5 @@ This is an incomplete project. This repository serves as a consolidated place fo
 - `FASER Benchmarks.ipynb` (Deprecated) : Jupyter notebook estimating the sensitivity of FASER to various neutral meson decays. - This is our initial attempt to determine FASER's sensitivity. 
 - `Model_Independent_Reach.ipynb` (Deprecated) : Jupyter notebook which estimates the sensitivity of FASER to various neutral meson decays without assuming a model. Contains old code which may be useful.
 - `Full Calculation.ipynb` : Jupyter notebook which plots the spectra in `Spectra/*.npy` and determines the sensitivity of FASER. 
+
+The X spectra are too large to share directly. These need to be generated locally by the user via the python script `decay_spectrum.py`. This can be done by executing `python decay_spectrum.py` from the base directory.
